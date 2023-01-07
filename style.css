@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'ds';
+    src: url(font/DS-DIGI.TTF);
+}
+:root{
+    --cor1:#000;
+    --cor2:#fff;
+    --cor3:#f0acac;
+    --cor4:#ccc;
+}
+body{
+    margin-top: 30px;
+    background-color: var(--cor3);
+}
+main{  
+    height: 70%x;
+    width: 50%;
+     margin: auto;
+      background-color: var(--cor2);
+    box-shadow: 5px 0px 20px 10px #0000001a;
+    border-radius: 10px;
+    text-align: center;
+}p{
+    display: inline;
+    font-family: ds;
+    font-size: 5em;
+    font-weight: bolder;
+    text-align: left;
+    padding: 5px;
+    text-shadow: #3e424273 2px 3px 20px;
+}
+form{
+    margin:60px;
+}
+button.bontao{
+    height: 20%;
+    width: 20%;
+      background-color: var(--cor2);
+    box-shadow: 5px 0px 20px 10px #0000001a;
+    border-radius: 2px;
+    text-align: center;
+}
